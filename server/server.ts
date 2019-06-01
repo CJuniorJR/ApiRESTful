@@ -9,5 +9,5 @@ server.listen(config.serverPort);
 
 server.on('listening', () => console.log(`Servidor esta rodando na porta ${config.serverPort}`));
 server.on('error', (error: NodeJS.ErrnoException) => console.log(`Ocorreu um erro: ${error}`));
-))
+
 
